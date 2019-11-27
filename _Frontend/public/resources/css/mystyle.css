@@ -1,0 +1,194 @@
+
+.loginform {
+    margin-left: 25%;
+    margin-top: 5%;
+    width: 50%;
+}
+.text-centre{
+    text-align: center;
+}
+.btn-color{
+    background-color: #009b27;
+    border-radius: 25px;
+    color: antiquewhite
+}
+.formSubmit{
+    width: 70%;
+}
+.btn-login{
+    border-radius: 10%;
+    width: 100px;
+}
+
+.logo img{
+    width: 150px;
+    height: 100px;
+}
+
+.text-warning {
+    margin-left: 20%;
+    margin-right: auto;
+    text-align: center;
+}
+.sm-btn{
+    width: 100%;
+    height: 2.5rem;
+}
+
+.sm-btn button{
+    color: antiquewhite;
+    width: 40%;
+    height: 100%;
+    margin-left: 30%;
+}
+.submit-form{
+}
+.submit-form button {
+    height: 40px;
+}
+.bar-chart {
+    height: 300px;
+    margin-bottom: 15px;
+    /* background-color: blue; */
+}
+.pie-chart{
+    height: 300px;
+    /* background-color: green; */
+}
+.double-line-chart{
+    margin-top: 20px;
+    margin-left: 30px;
+
+}
+.line-chart{
+    height: 300px;
+    margin-left: 5%;
+    /* background-color: yellow; */
+}
+.map-container{
+    height: 100%;
+    width: 100%;
+    left: 0px;
+    /* background-color: red; */
+}
+.info-cell {
+    width: 70%;
+    margin-left: 15%;
+    text-align: center;
+    border-bottom: 1px solid #e3e6f0
+}
+.info-cell p {
+    font-size: 12px;
+}
+.gg-map-session {
+    height: 35rem;
+}
+.table-event {
+    color: black;
+    width: 80%;
+    font-size: 15px;
+    margin-top: 20px;
+    margin-left: 30px;
+    margin-bottom: 50px;
+    /* margin: 30px 30px auto auto; */
+}
+.table-growth{
+    color: black;
+    width: 80%;
+    font-size: 15px;
+    margin-top: 20px;
+    margin-left: 30px;
+    margin-bottom: 130px;
+}
+.table-cell{
+    height: 30px;
+}
+.infortable-session{
+    height: 32rem;
+    overflow: scroll;
+}
+#info-table {
+    width: 100%;
+    height: 100%;
+    /* overflow: scroll; */
+}
+.insurance-packages{
+    color: black;
+}
+#btn-explore:hover {
+    border: 1px solid #a8ca2d;
+    background-color: #a8ca2d ;
+    color: #ffffff;
+    padding: 5px 10px;
+}
+#btn-explore:disabled {
+    border: 1px solid #999999;
+    background-color: #cccccc;
+    color: #666666;
+}
+#btn-submitFarmInfo:hover{
+    border: 1px solid #a8ca2d;
+    background-color: #a8ca2d ;
+    color: #ffffff;
+    padding: 5px 10px;
+}
+#btn-signUpFarmInfo:hover{
+    border: 1px solid #a8ca2d;
+    background-color: #a8ca2d ;
+    color: #ffffff;
+    padding: 5px 10px;
+}
+#success_message{ display: none;}
+#gg-map {
+    height: 130%;  /* The height is 400 pixels */
+    width: 100%;  /* The width is the width of the web page */
+}
+
+.fab-upload-file {
+	width: 70px;
+	height: 70px;
+  display: flex;
+	cursor: pointer;
+	align-items: center;
+	border-radius: 100%;
+	justify-content: center;
+	background-color: #ecf0f1;
+  box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.75);
+	-webkit-box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.75);
+}
+.image-upload > input
+{
+    display: none;
+}
+
+.image-upload img
+{
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+}
+.user-input-form{
+    height: 85%;
+    /* scroll */
+    /* background-color: #009b27; */
+    overflow: scroll;
+}
+.user-input-form label{
+    font-size: 14px;
+    color: black;
+}
+.user-input-form input{
+    font-size: 14px;
+}
+.user-input {
+    height: 100%;
+}
+/* input[type=file]{ 
+    color:transparent;
+    float: right;
+} */
+.upload-icon{width:10px;height:10px;position:relative;color:#009b27;background-color:currentColor;}
+.upload-icon:before,.upload-icon:after{content:"";display:block;position:absolute;}
+.upload-icon:before{bottom:100%;margin-left:-7.5px;border-bottom:12px solid currentColor;border-left:12px solid transparent;border-right:12px solid transparent;}
+.upload-icon:after{top:100%;left:-95%;width:300%;height:2px;margin-top:5px;position:absolute;background-color:currentColor;}
